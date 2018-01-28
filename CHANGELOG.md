@@ -1,3 +1,84 @@
+# v0.67 2018-01-28 Wekan release
+
+This release fixes the following bugs:
+
+* [Fix Igbo language name at menu](https://github.com/wekan/wekan/commit/9d7ff75d3fed1285273245fbe6f6a757b6180039).
+
+Thanks to GitHub user xet7 for contributions.
+
+# v0.66 2018-01-28 Wekan release
+
+This release fixes the following bugs:
+
+* [Fix Dockerfile for Debian](https://github.com/wekan/wekan/pull/1439).
+
+Thanks to GitHub user soohwa for contributions.
+
+# v0.65 2018-01-28 Wekan release
+
+This release adds the following new features:
+
+* [Swimlanes, part 1](https://github.com/wekan/wekan/issues/955);
+* Added new language: Igbo.
+
+Thanks to GitHub user andresmanelli for contributions.
+
+# v0.64 2018-01-22 Wekan release
+
+This release adds the following new features:
+
+* [Different icons for start and due date](https://github.com/wekan/wekan/pull/1420).
+* Added new languages: Mongolian and Portuguese;
+* Upgraded to Meteor 1.6.0.1, Node 8.9.3, NPM 5.5.1 and fibers 2.0.0.
+
+and fixes the following bugs:
+
+* [Fix for dragging into scrolled-down list](https://github.com/wekan/wekan/pull/1424).
+* [Fix double slash bug on snap](https://github.com/wekan/wekan/issues/962#issuecomment-357785748).
+
+Thanks to GitHub users dpoznyak, mmarschall and xet7 for their contributions.
+
+# v0.63 2017-12-20 Wekan release
+
+This release adds the following new features:
+
+* [Auto update card cover with new image uploaded via drag&drop](https://github.com/wekan/wekan/pull/1401);
+* Update to Node 4.8.7.
+
+Thanks to GitHub users thuanpq and xet7 for their contributions.
+
+# v0.62 2017-12-12 Wekan release
+
+This release fixes the following bugs:
+
+* Added missing packages to build script.
+
+Thanks to GitHub user xet7 for contributions.
+
+# v0.61 2017-12-12 Wekan release
+
+This release adds the following new features:
+
+* [Change password of any user in Standalone Wekan Admin Panel](https://github.com/wekan/wekan/pull/1372);
+* [Performance optimization: Move more global subscriptions to template subscription](https://github.com/wekan/wekan/pull/1373);
+* [Auto update card cover with latest uploaded image attachment](https://github.com/wekan/wekan/pull/1387);
+* [Always display attachment section for uploading file quickly](https://github.com/wekan/wekan/pull/1391);
+* [Make it easier to see the Add Card button at top of list](https://github.com/wekan/wekan/pull/1392);
+* [Add mixmax:smart-disconnect to lower CPU usage when browser tab is not selected](https://github.com/wekan/wekan-mongodb/issues/2);
+* Update tranlations. Add Latvian language;
+* Update to Node 4.8.6 and MongoDB 3.2.18.
+
+and fixes the following bugs:
+
+* [Bug on not being able to see Admin Panel if not having access to Board List](https://github.com/wekan/wekan/pull/1371);
+* [Bug on not able to see member avatar on sidebar activity](https://github.com/wekan/wekan/pull/1380);
+* [Don't open swipebox on update card cover / download file / delete file](https://github.com/wekan/wekan/pull/1386);
+* [Boards subscription should be placed at header for all other component can be used](https://github.com/wekan/wekan/pull/1381);
+* [Bug on long url of attachment in card activity log](https://github.com/wekan/wekan/pull/1388).
+
+Thanks to GitHub users mfshiu, thuanpq and xet7 for their contributions.
+Thanks to translators for their translations.
+
 # v0.60 2017-11-29 Wekan release
 
 This release adds the following new features:

@@ -35,10 +35,12 @@ Template.editProfilePopup.events({
     const email = tpl.find('.js-profile-email').value.trim();
     let isChangeUserName = false;
     let isChangeEmail = false;
-    Users.update(Meteor.userId(), {$set: {
-      'profile.fullname': fullname,
-      'profile.initials': initials,
-    }});
+    Users.update(Meteor.userId(), {
+      $set: {
+        'profile.fullname': fullname,
+        'profile.initials': initials,
+      },
+    });
     isChangeUserName = username !== Meteor.user().username;
     isChangeEmail = email.toLowerCase() !== Meteor.user().emails[0].address.toLowerCase();
     if (isChangeUserName && isChangeEmail) {
@@ -114,7 +116,7 @@ Template.changeLanguagePopup.helpers({
     return _.map(TAPi18n.getLanguages(), (lang, code) => {
       return {
         tag: code,
-        name: lang.name === 'br' ? 'Brezhoneg' : lang.name,
+        name: lang.name === 'br' ? 'Brezhoneg' : lang.name === 'ig' ? 'Igbo' : lang.name,
       };
     }).sort(function (a, b) {
       if (a.name === b.name) {
