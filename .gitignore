@@ -17,3 +17,6 @@ package-lock.json
 snap/.snapcraft/
 .idea
 .DS_Store
+charlie
+app_build
+.npm
